@@ -1,0 +1,175 @@
+:root{
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+@font-face {
+    font-family: ;
+    src: url();
+}*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-principal{
+    /*position: sticky;*/
+}
+.logo{
+    width: 80px;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 15px;
+}
+.py-g{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:radial-gradient(circle at right,rgba(15, 3, 55, 0.12) 0,rgba(9,16,25,.93) 60%),url();
+    padding: 25px 0;
+
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+
+    padding-right: var(--bs-gutter-x,0.75rem);
+    padding-left: var(--bs-gutter-x,0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.fila{
+    display: flex;
+}
+
+nav{
+    margin-bottom: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.redes  ul{
+    display: flex;
+    justify-content:space-evenly;
+    max-width: 150px;
+    
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav li a:hover{
+    color: #17ad87;
+    border-bottom: 1px solid #17ad87;
+    transition: 1s ease-out;
+}
+
+.centrado{
+    text-align: center;
+}
+.texto-blanco{
+    color: aliceblue;
+}
+.titular{
+    margin-top: 150px;
+}
+.boton{
+    text-decoration: none;
+    background-color:  #14ac89;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+.boton:hover{
+    background-color: #0d1825;
+    border: 2px solid #14ac89;
+}
+.mb-3{
+    margin-bottom: 20px;
+}
+.entradas{
+    width: 65%;
+}
+.categorias{
+    width: 25%;
+    background-color: #17ad87;
+}
+
+footer{
+    display: flex;
+    background-color: #242a54;
+    padding: 2%;
+
+}
+
+
+.pa-logo{
+    width: 20%;
+    text-transform: small;
+    line-height: 1;
+    padding: 20px;
+
+}
+.logo-footer{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-f{
+    width: 50px;
+    
+}
+.secciones{
+    width: 30%;
+    padding: 20px;
+    
+}
+.subtitular-footer{
+    font-weight: normal;
+    font-size: 1em;
+    
+}
+.secciones p{
+    margin-bottom: 0;
+    line-height: 1.1;
+    
+}
+.secciones p>a{
+    color: aliceblue;
+    font-size: small;
+    
+}
+.small{
+    font-size: small;
+}
+
+.secciones p>a:hover{
+    color: #17ad87;
+    font-size: small;
+    
+}
+
+.boletin{
+    width: 50%;
+    padding: 20px;
+}
+
+
+@media only screen and (min-width:100px) and (max-width:900px){
+    
+}
+
+
