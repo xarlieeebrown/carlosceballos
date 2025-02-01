@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Carlos Ceballos | Diseñador Gráfico </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="diseño, diseño grafico, frontend, impresion, diseño editorial, fotográfia, diseño web, redes sociales, "> 
+    
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon.png">
+  <link rel="stylesheet" href="css/estilos.css">
+  <!--<link rel="stylesheet" href="sass/custom.css">-->
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+
+  <style>
+    /* 17ad87 verde  242a54 azuk */
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img class="logo" src="img/logo-1.png"  alt="">
+    </div>
+    <nav class="menu-principal" >
+      <ul>
+        <li><a> Inicio </a></li>
+        <li><a> Portfolio </a></li>
+        <li><a> Tutoriales </a></li>
+        <li><a> Blog </a> </li>
+        <li><a> Contacto </a></li>
+      </ul>
+    </nav>
+    <nav class="redes">
+      <ul>
+        <li><a href=""> <i class="fab fa-behance"></i>  </a></li>
+        <li><a href=""> <i class="fab fa-github"></i> </a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      </ul>
+      
+    </nav>
+
+    <h1 class="centrado texto-blanco titular">Carlos Ceballos</h1>
+    <p class="centrado texto-blanco mb-3">Diseñador Gráfico</p>
+    <p class="centrado"><a class="boton" href="portfolio"> Conóceme  </a></p>
+
+    
+  </header>
+  <!--portfolio-->
+  <section class="contenedor py-g">
+    <h2 class="centrado">Portfolio</h2>
+    <p class="centrado"> Conoce algo de mi trabajo  </p>
+
+  </section>
+  
+  <!--blog-->
+  <section class="contenedor py-g">
+    <h2 class="centrado ">Blog</h2>
+    <p class="centrado mb-3"> Noticias, datos, y un poco de todo  </p>
+    <div class="fila">
+      <div class="entradas">
+        <h5>Últimas Entradas</h5>
+        <p><a class="small" href=""> Como hacer esto  </a></p>
+        <p><a class="small" href=""> Como hacer lo otro</a></p>
+        <p><a class="small" href="">Como hacer aquello</a></p>
+        <p><a class="small" href="">Como hacer eso</a></p>
+  
+      </div>
+      <div class="categorias">
+        <h5>Categorías</h5>
+        <p><a class="small" href=""> Como hacer esto  </a></p>
+        <p><a class="small" href=""> Como hacer lo otro</a></p>
+        <p><a class="small" href="">Como hacer aquello</a></p>
+        <p><a class="small" href="">Como hacer eso</a></p>
+  
+      </div>
+    </div>
+    <p class="centrado"><a class="boton" href="blog/index.html"> Ir a Blog  </a></p>
+    
+
+  </section>
+  
+  <footer>
+    <div class="pa-logo" >
+      <div class="logo-footer">
+        <img class="logo-f"  src="img/logo-1.png" alt="">
+      </div>
+      <p class="centrado " style="color: #17ad87;">Carlos <br> Ceballos</p>
+    </div>
+    <div class="secciones">
+      <h5 class="texto-blanco subtitular-footer" >Secciones</h5>
+      <p><a href=""><i class="fas fa-angle-right"></i> Blog  </a></p>
+      <p><a href=""><i class="fas fa-angle-right"></i> Tutoriales</a></p>
+      <p><a href=""><i class="fas fa-angle-right"></i> Portfolio </a></p>
+      <p><a href=""><i class="fas fa-angle-right"></i> Contacto </a></p>
+    </div>
+    <div class="boletin ">
+      <h6 class="subtitular-footer texto-blanco">Newsletter</h6>
+      <p class="texto-blanco small">Suscribete a mi boletión de noticias y no te pierdas de los ultimo que suba </p>
+    </div>
+  </footer>
+
+
+  <div id="div-cookies" style="display: none;">
+    Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+        <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+    y la
+        <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+        <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+        Acepto el uso de cookies
+        </button>
+    </div>
+    <style>
+      #div-cookies {
+          position: fixed;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          background-color: white;
+          box-shadow: 0px -5px 15px gray;
+          padding: 7px;
+          text-align: center;
+          z-index: 99;
+      }
+  </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+      function checkAcceptCookies() {
+          if (localStorage.acceptCookies == 'true') {
+          } 
+          else {
+              $('#div-cookies').show();
+          }
+      }
+      function acceptCookies() {
+          localStorage.acceptCookies = 'true';
+          $('#div-cookies').hide();
+      }
+      $(document).ready(function() {
+          checkAcceptCookies();
+      });
+  </script>
+
+
+  
+
+  
+  
+<script src="https://kit.fontawesome.com/75cad0b690.js" crossorigin="anonymous" async></script>
+</body>
+</html>

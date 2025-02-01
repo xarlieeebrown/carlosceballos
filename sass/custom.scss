@@ -1,7 +1,30 @@
+.gordita{
+    font-weight: 800;
+}
 
+.redes {
+    width:100%; 
+    height:400px; 
+    overflow-y: scroll;
+}
+
+.sitiocompleto {
+    width:100%; 
+    height:500px; 
+    overflow-y: scroll;
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 3000px) {
+    .espacio {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
 
 $secondary: #242a54;
 $primary: #17ad87;
-$font-family-sans-serif: 'Monserrat', sans-serif;
+$info:#0d1825;
+$font-family-sans-serif: 'Montserrat', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
