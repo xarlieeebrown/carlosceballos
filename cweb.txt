@@ -1,0 +1,1 @@
+C:\Users\charl\Documents\cwebp\libwebp-1.4.0-windows-x64\libwebp-1.4.0-windows-x64\bin\cwebp.exe -q 80 img/adobe-premiere-pro-logo-2-1.png -o img/adobe-premiere-pro-logo-2-1.webp
